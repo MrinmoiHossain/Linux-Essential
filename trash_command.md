@@ -1,0 +1,11 @@
+## ```trash``` command
+- install : sudo apt-get install trash-cli
+- shows version of ls command : trash --version
+- show help page : trash --help
+- sent file to trash : trash fileName
+- to trash a specific file : trash-put fileName
+- list all trashed files : trash-list
+- restore a trashed file : trash-restore
+- remove all files from the trashcan : trash-empty
+- remove only the files that have been deleted more than <days> ago : trash-empty 7 (trash-empty <days>)
+- remove only files matching a pattern : trash-rm  \*.txt
