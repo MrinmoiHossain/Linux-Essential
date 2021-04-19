@@ -1,5 +1,5 @@
 ## ```who``` command
-- shows version of ls command : who --version
+- shows version : who --version
 - show help page : who --help
 - display account information : who
 - to print the heading of the columns displayed : who -H
