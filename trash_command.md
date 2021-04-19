@@ -1,6 +1,6 @@
 ## ```trash``` command
 - install : sudo apt-get install trash-cli
-- shows version of ls command : trash --version
+- shows version : trash --version
 - show help page : trash --help
 - sent file to trash : trash fileName
 - to trash a specific file : trash-put fileName
