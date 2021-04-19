@@ -1,5 +1,5 @@
-## ls command
-- shows version of ls command : ls --version
+## ```ls``` command
+- shows version : ls --version
 - show help page : ls --help
 - list files and directories in bare format : ls
 - file or directory, size, modified date and time, file or folder name and owner of file and its permission : ls -l
