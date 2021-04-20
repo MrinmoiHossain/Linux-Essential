@@ -18,4 +18,4 @@
 - to display user identification information : id
 
 tips:
-- alias who="who -a"
+- alias who="who -aH"
