@@ -1,0 +1,22 @@
+## ```echo``` command
+- shows version : /bin/echo --version
+- show help page : man ls or /bin/echo --help
+- to display line of text : echo "This is Text" (echo string)
+- to print all files/folders in current directory : echo *
+- to omit echoing trailing newline : echo -n "This is Text" 
+- to disables the interpretation (as backslash) : echo -E "This \vis \nText"
+- to enables the interpretation of the following escape characters
+    - to play a sound alert when displaying the output : echo -e "This is \aText"
+    - to remove all the spaces in between the text : echo -e "This \bis \bText"
+    - to suppress trailing new line with backspace interpretor : echo -e "This \cis Text"
+    - to escape character (after) : echo -e "This \eis Text"
+    - to automatically advance to the start of the next page : echo -e "This \fis Text"
+    - to add a new line to the output : echo -e "This \nis Text"
+    - to perform a carriage return : echo -e "This \ris Text"
+    - to create horizontal tab spaces : echo -e "This \tis Text"
+    - to create vertical tab spaces : echo -e "This \vis Text"
+    - to change the color of the output text using ANSI escape sequences : echo -e "\033[0;31mRED"
+- to use with variable : echo "This is $text"
+- to write the text in a file : echo "This is Text" >> filename
+- to display command output : echo "$(ls)"
+- to perform basic arithmetic operations and display the result as output : echo "$((20*3))"
