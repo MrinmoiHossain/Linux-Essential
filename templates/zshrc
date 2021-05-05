@@ -1,0 +1,50 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/home/mrinmoi/.oh-my-zsh"
+
+# Set name of the theme to load
+ZSH_THEME="agnoster"
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="true"
+
+
+# Plugins list for ZSH
+plugins=(git zsh-autosuggestions web-search)
+
+source $ZSH/oh-my-zsh.sh
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+
+# System alias
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias zshconfig="vim ~/.zshrc"
+alias zshconfigset="source ~/.zshrc"
+alias ls="ls -lahF --color=auto"
+alias who="who -aH"
+
+# alias ohmyzsh="mate ~/.oh-my-zsh"
