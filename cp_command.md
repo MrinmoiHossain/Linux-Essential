@@ -1,0 +1,12 @@
+## ```cp``` command
+- shows version : cp --version
+- show help page : cp --help
+- to copy a file : cp a.out b.out (cp SourceFiles DestinationFiles)
+- to create the backup of the destination file in the same folder with the different name and in different format : cp -b a.out b.out (cp -b SourceFiles DestinationFiles)
+- to copy the file forcefully : cp -f a.out b.out (cp -f SourceFiles DestinationFiles)
+- to prompt for confirmation before overwriting the destination : cp -i a.out b.out (cp -i SourceFiles DestinationFiles)
+- do not overwrite an existing file : cp -n a.out b.out (cp -n SourceFiles DestinationFiles)
+- to preserve the specified attributes : cp -p a.out b.out (cp -p SourceFiles DestinationFiles)
+- to copy the entire directory structure recursively : cp -r one two (cp -r SourceDirectories DestinationDirectories)
+- to copy only when the SOURCE file is newer than the destination file : cp -u a.out b.out (cp -u SourceFiles DestinationFiles)
+- to print verbose output when copy files/directories : cp -v a.out b.out (cp -u Source Destination)
